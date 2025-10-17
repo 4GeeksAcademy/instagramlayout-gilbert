@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.post {
+    width: 400px;
+    background: white;
+}
+.perfil{
+    display: flex;
+    align-items: center;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.pfp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.foto {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+}
+
+p{
+    padding: 10px;
+}
